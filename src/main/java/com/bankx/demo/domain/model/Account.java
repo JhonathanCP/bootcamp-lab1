@@ -1,4 +1,4 @@
-package com.bankx.demo.model;
+package com.bankx.demo.domain.model;
 
 import java.math.BigDecimal;
 

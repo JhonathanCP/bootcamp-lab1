@@ -3,7 +3,7 @@ package com.bankx.demo.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.bankx.demo.model.Transaction;
+import com.bankx.demo.domain.model.Transaction;
 
 import reactor.core.publisher.Sinks;
 

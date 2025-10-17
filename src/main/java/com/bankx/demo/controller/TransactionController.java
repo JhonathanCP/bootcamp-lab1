@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bankx.demo.dto.CreateTxRequest;
-import com.bankx.demo.model.Transaction;
+import com.bankx.demo.domain.model.Transaction;
 import com.bankx.demo.service.ITransactionService;
 
 import jakarta.validation.Valid;

@@ -7,11 +7,11 @@ import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.stereotype.Service;
 
 import com.bankx.demo.dto.CreateTxRequest;
-import com.bankx.demo.exception.BusinessException;
-import com.bankx.demo.model.Account;
-import com.bankx.demo.model.Transaction;
-import com.bankx.demo.repo.AccountRepo;
-import com.bankx.demo.repo.TransactionRepo;
+import com.bankx.demo.domain.exception.BusinessException;
+import com.bankx.demo.domain.model.Account;
+import com.bankx.demo.domain.model.Transaction;
+import com.bankx.demo.domain.repo.AccountRepo;
+import com.bankx.demo.domain.repo.TransactionRepo;
 import com.bankx.demo.service.IRiskService;
 import com.bankx.demo.service.ITransactionService;
 

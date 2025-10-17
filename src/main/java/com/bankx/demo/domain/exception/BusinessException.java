@@ -1,4 +1,4 @@
-package com.bankx.demo.exception;
+package com.bankx.demo.domain.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

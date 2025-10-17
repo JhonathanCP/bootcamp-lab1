@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.bankx.demo.exception.BusinessException;
+import com.bankx.demo.domain.exception.BusinessException;
 
 import reactor.core.publisher.Mono;
 

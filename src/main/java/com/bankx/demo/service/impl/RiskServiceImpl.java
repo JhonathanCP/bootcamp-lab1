@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 import org.springframework.stereotype.Service;
 
-import com.bankx.demo.model.legacy.RiskRule;
-import com.bankx.demo.repo.legacy.RiskRuleRepo;
+import com.bankx.demo.domain.model.legacy.RiskRule;
+import com.bankx.demo.domain.repo.legacy.RiskRuleRepo;
 import com.bankx.demo.service.IRiskService;
 
 import lombok.RequiredArgsConstructor;
