@@ -53,7 +53,7 @@ public class TransactionServiceImpl implements ITransactionService {
                         return Mono.error(new BusinessException("insufficient_funds"));
                     }
 
-                    // 3) Actualiza balance (CPU-light, podemos publishOn paralelo si deseamos)
+                    // 3) Actualiza balance
                     return Mono.just(acc).publishOn(Schedulers.parallel())
                             .map(a -> {
                                 BigDecimal newBal = "DEBIT".equals(type) ? a.getBalance().subtract(amount)
